@@ -19,7 +19,7 @@ pipeline {
     }
       stage ('deploy the artifact') {
         steps {
-          sh ' ansible-playbook -i host spc.yaml'
+          sh 'ansible-playbook -i host spc.yaml'
         }
       }
   }
