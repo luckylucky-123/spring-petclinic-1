@@ -1,3 +1,4 @@
+---
 - name: spc deployment
   hosts: localhost
   become: yes
